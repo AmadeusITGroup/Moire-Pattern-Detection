@@ -4,9 +4,20 @@
 ## Introduction
 To detect Moire ́ patterns, images are first decomposed using Wavelet decomposition and trained using multi-input Convolutional neural network. The strength of the proposed CNN model is, it uses the LL intensity image (from the Wavelet decomposition) as a weight parameter for the Moire ́ pattern, thereby approximating the spatial spread of the Moire ́ pattern in the image. Usage of CNN model performs better than frequency thresholding approach as the model is trained considering diverse scenarios and it is able to distinguish between the high frequency of background texture and the Moire ́ pattern.
 
+If this code helps with your work, please cite:
 
-
-
+```bibtex
+@INPROCEEDINGS{8628746,
+author={E. {Abraham}},
+booktitle={2018 IEEE Symposium Series on Computational Intelligence (SSCI)},
+title={Moiré Pattern Detection using Wavelet Decomposition and Convolutional Neural Network},
+year={2018},
+volume={},
+number={},
+pages={1275-1279},
+ISSN={},
+month={Nov},}
+```
 
 ## Set-up
 
