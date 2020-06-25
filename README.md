@@ -33,6 +33,12 @@ month={Nov},}
 
 `pip install Pillow`
 
+`pip install scikit-learn`
+
+`pip install scikit-image`
+
+`pip install PyWavelets`
+
 
 ### 3. create the wavelet decomposed training dataset from the captured images
 
