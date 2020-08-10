@@ -136,7 +136,7 @@ def readWaveletData(positiveImagePath, negativeImagePath, positiveTrainImagePath
     
     sampleIndex = 0
     # read all images, convert to float, divide by 255 (leads to gray range 0..1), reshape into a row vector
-    # write class 1 for positive and 0 for negative samples    
+    # write class 0 for positive and 1 for negative samples    
     sampleIndex = readImageSet(positiveImageFiles, positiveTrainImagePath, X_LL, X_LH, X_HL, X_HH, X_index, Y, sampleIndex, 0)
     print('positive data loaded.')
     
