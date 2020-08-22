@@ -39,6 +39,7 @@ month={Nov},}
 
 `pip install PyWavelets`
 
+**Note - Resize Images to WIDTH = 1000 and HEIGHT = 750**
 
 ### 3. create the wavelet decomposed training dataset from the captured images
 
