@@ -2,9 +2,9 @@
 
 
 ## Introduction
-To detect Moire ́ patterns, images are first decomposed using Wavelet decomposition and trained using multi-input Convolutional neural network. The strength of the proposed CNN model is, it uses the LL intensity image (from the Wavelet decomposition) as a weight parameter for the Moire ́ pattern, thereby approximating the spatial spread of the Moire ́ pattern in the image. Usage of CNN model performs better than frequency thresholding approach as the model is trained considering diverse scenarios and it is able to distinguish between the high frequency of background texture and the Moire ́ pattern.
+This is a copy of the repository Moire-Pattern-Detection-Torch from the AmadeusITGroup adapted from TensorFlow to PyTorch.
 
-If this code helps with your work, please cite:
+The original work cite:
 
 ```bibtex
 @INPROCEEDINGS{8628746,
@@ -26,8 +26,6 @@ month={Nov},}
 ### 1. Install Python3 
 
 ### 2. Install dependencies 
-
-`pip install tensorflow`
 
 `pip install keras`
 
